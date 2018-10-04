@@ -24,6 +24,17 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df1",
+                    "output": "df1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "process.R"
         }
     ],
     "nodes": [
@@ -39,8 +50,12 @@
         {
             "desc": "",
             "name": "process.R"
+        },
+        {
+            "desc": "",
+            "name": "analysis.R"
         }
     ],
-    "updated_at": "2018-10-04 03:30:24",
+    "updated_at": "2018-10-04 03:31:11",
     "url": "https://github.com/dsclass-test/test7"
 }
