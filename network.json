@@ -68,12 +68,15 @@
             "task_status": "proposed"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "yhegde",
             "desc": "",
             "name": "analysis.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-04 03:49:20",
+    "updated_at": "2018-10-04 04:10:32",
     "url": "https://github.com/dsclass-test/test7"
 }
