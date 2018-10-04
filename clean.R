@@ -1,6 +1,4 @@
 
 clean_data <- raw_data
 
-iefhvb 
-
-ief
+img <- hist(clean_data$Ozone)
