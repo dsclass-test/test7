@@ -1,0 +1,61 @@
+{
+    "collaborators": [
+        "yatish",
+        "yhegde"
+    ],
+    "created_at": "2018-10-04 03:27:19",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df1",
+                    "output": "df1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "process.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "name": "clean.R"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "process.R"
+        },
+        {
+            "desc": "",
+            "name": "analysis.R"
+        }
+    ],
+    "updated_at": "2018-10-04 03:31:11",
+    "url": "https://github.com/dsclass-test/test7"
+}
