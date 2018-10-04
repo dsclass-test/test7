@@ -35,6 +35,17 @@
             ],
             "source": "clean.R",
             "target": "process.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "var2",
+                    "output": "var1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "process.R",
+            "target": "analysis.R"
         }
     ],
     "nodes": [
@@ -42,20 +53,27 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
         },
         {
+            "assigned_to": "yatish",
             "desc": "",
-            "name": "process.R"
+            "name": "clean.R",
+            "task_status": "proposed"
         },
         {
+            "assigned_to": "yhegde",
             "desc": "",
-            "name": "analysis.R"
+            "name": "process.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "analysis.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 03:31:11",
+    "updated_at": "2018-10-04 03:49:20",
     "url": "https://github.com/dsclass-test/test7"
 }
