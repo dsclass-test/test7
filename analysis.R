@@ -1,4 +1,3 @@
 
 head(clean_data)
-
-uvhffuv uwfv
+jdfv 
