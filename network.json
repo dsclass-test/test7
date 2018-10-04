@@ -56,10 +56,6 @@
             "name": "data.csv"
         },
         {
-            "desc": "",
-            "name": "process.R"
-        },
-        {
             "assigned_to": "yatish",
             "desc": "",
             "name": "clean.R",
@@ -70,8 +66,14 @@
             "desc": "",
             "name": "analysis.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "yhegde",
+            "desc": "",
+            "name": "process.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 03:32:48",
+    "updated_at": "2018-10-04 03:32:57",
     "url": "https://github.com/dsclass-test/test7"
 }
