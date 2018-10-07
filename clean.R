@@ -1,6 +1,8 @@
 
 df <- raw_data
 
+head(raw_data)
+
 dfSVM <- df[,c(2:8,10,11,13,23:52)]
 #dfSVM <- df[,c(1:3,4:7,10,12,13,15,25,26,28,29,31:39,40:54)]
 dfSVMTrain <- dfSVM[1:10000,1:40]
