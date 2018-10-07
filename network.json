@@ -8,16 +8,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
                     "output": "df",
                     "type": "r_obj"
@@ -25,6 +15,16 @@
             ],
             "source": "clean.R",
             "target": "svm.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -42,6 +42,6 @@
             "name": "svm.R"
         }
     ],
-    "updated_at": "2018-10-07 02:36:56",
+    "updated_at": "2018-10-07 02:37:33",
     "url": "https://github.com/dsclass-test/test7"
 }
