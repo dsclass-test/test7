@@ -39,17 +39,6 @@
         {
             "ports": [
                 {
-                    "input": "var2",
-                    "output": "var1",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "process.R",
-            "target": "analysis.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "img",
                     "type": "png"
                 }
@@ -79,14 +68,8 @@
         },
         {
             "name": "plot.png"
-        },
-        {
-            "assigned_to": "yatish",
-            "desc": "",
-            "name": "analysis.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-07 02:34:59",
+    "updated_at": "2018-10-07 02:35:05",
     "url": "https://github.com/dsclass-test/test7"
 }
