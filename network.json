@@ -35,16 +35,6 @@
             ],
             "source": "clean.R",
             "target": "process.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "img",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "plot.png"
         }
     ],
     "nodes": [
@@ -61,15 +51,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot.png"
-        },
-        {
             "assigned_to": "yatish",
             "desc": "",
             "name": "process.R",
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-07 02:35:21",
+    "updated_at": "2018-10-07 02:35:28",
     "url": "https://github.com/dsclass-test/test7"
 }
