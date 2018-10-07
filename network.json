@@ -61,15 +61,15 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "yhegde",
+            "name": "plot.png"
+        },
+        {
+            "assigned_to": "yatish",
             "desc": "",
             "name": "process.R",
             "task_status": "proposed"
-        },
-        {
-            "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-07 02:35:05",
+    "updated_at": "2018-10-07 02:35:21",
     "url": "https://github.com/dsclass-test/test7"
 }
