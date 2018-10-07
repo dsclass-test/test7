@@ -14,24 +14,11 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "name": "data.csv"
         },
         {
             "assigned_to": "yatish",
@@ -40,6 +27,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-07 02:35:43",
+    "updated_at": "2018-10-07 02:36:03",
     "url": "https://github.com/dsclass-test/test7"
 }
