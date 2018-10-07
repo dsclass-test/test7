@@ -19,7 +19,7 @@
         {
             "ports": [
                 {
-                    "input": "satisfactionSurvey",
+                    "input": "satisfaction_survey",
                     "type": "csv"
                 }
             ],
@@ -42,6 +42,6 @@
             "name": "svm.R"
         }
     ],
-    "updated_at": "2018-10-07 02:37:33",
+    "updated_at": "2018-10-07 02:37:56",
     "url": "https://github.com/dsclass-test/test7"
 }
